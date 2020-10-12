@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+:root
+{
+  --Primary-Color: #30475e;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-weight: 600px !important;
+}
+.Header-Row
+{
+  
+}
+.TopBar-Row 
+{
+  background: var(--Primary-Color);
+}
+.Container 
+{
+  width: 1140px;
+  margin: 0 auto;
+}
+.TopBar-Wrapper 
+{
+  overflow: hidden;
+}
+.Welcome-Txt 
+{
+  float: left;
+  width: 210px;
+  margin-right: 20px;
+}
+.Welcome-Txt h5 
+{
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 40px;
+}
+.Top-Menu 
+{
+  float: right;
+  width: 908px;
+}
+.Top-Menu ul 
+{
+  list-style: none;
+  text-align: right;
+}
+.Top-Menu li 
+{
+  display: inline-block;
+}
+.Top-Menu ul li a 
+{
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 9px 20px;
+  display: block;
+  transition: 0.5s;
+}
+.Top-Menu ul li:hover a
+{
+  color: #d7385e;
+} 
+.Top-Menu ul li a.Login-Btn 
+{
+  background: #d7385e;
+  transition: 0.5s;
+}
+.Top-Menu ul li a.Login-Btn:hover
+{
+  background: #d6d2c4;
+  color: #d7385e;
+}
