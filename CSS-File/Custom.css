@@ -14,7 +14,7 @@ body
 {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  background: #f7f9fa;
+  background: #ecf0f3;
 }
 h1, h2, h3, h4, h5, h6
 {
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6
 }
 .MainBar-Row 
 {
-  background: #f7f9fa;
+  background: #ecf0f3;
 }
 .Logo 
 {
@@ -191,4 +191,97 @@ h1, h2, h3, h4, h5, h6
 {
   background: #D6D2C4;
   color: #d7385e;
+}
+.Services-Section
+{
+  padding: 60px 0;
+}
+.Service-Title 
+{
+  text-align: center;
+  padding: 0 215px;
+}
+.Service-Title h4 
+{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #4B3C4C;
+  margin-bottom: 10px;
+}
+.Service-Title p 
+{
+  color: #6d6d6d;
+  font-size: 16px;
+}
+.Services-Box 
+{
+  overflow: hidden;
+  padding: 35px 40px;
+}
+.Single-Service-Box 
+{
+  float: left;
+  width: 326px;
+  margin-right: 40px;
+  text-align: center;
+  padding: 30px 30px;
+  background: #ecf0f3;
+  box-shadow: 8px 8px 12px #cbced1,
+              -8px -8px 12px #f7fafc;
+  border-radius: 10px;
+  transition: .5s;
+}
+.Single-Service-Box:hover
+{
+  box-shadow: inset 8px 8px 12px #cbced1,
+              inset -8px -8px 12px #f7fafc;
+}
+.Single-Service-Box:last-child
+{
+  margin-right: 0;
+}
+.Single-Service-Box i 
+{
+  background: #d7385e;
+  color: #ffff;
+  width: 100px;
+  padding: 30px 0px;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 2px #5f5f5f,
+              0px 0px 0px 5px #ecf0f3,
+              8px 8px 12px #a7aaaf,
+              -8px -8px 12px #f7fafc;
+}
+.Single-Service-Box h4 
+{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: #4E4E50;
+}
+.Single-Service-Box p 
+{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #555;
+}
+.Single-Service-Box a 
+{
+  text-decoration: none;
+  color: #30475E;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: #ecf0f3;
+  padding: 8px 35px;
+  border-radius: 8px;
+  box-shadow: inset 3px 3px 5px #cbced1,
+              inset -3px -3px 5px #f7f9fa;
+  transition: .5s;
+}
+.Single-Service-Box:hover a
+{
+  box-shadow: 3px 3px 5px #cbced1,
+              -3px -3px 5px #f7f9fa;
 }
