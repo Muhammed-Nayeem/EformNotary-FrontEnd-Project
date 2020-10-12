@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6
   display: block;
   padding: 10px 10px;
   font-size: 14px;
-  color: #45285E;
+  color: #4E4E50;
   font-weight: 600;
   transition: .5s;
 }
@@ -147,4 +147,48 @@ h1, h2, h3, h4, h5, h6
 .Main-Menu ul li #First-Option:hover
 {
   color: #45285E;
+}
+.Showcase-Content 
+{
+  width: 50%;
+}
+.Showcase-Banner
+{
+  background-image: url("../Assets-File/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 0;
+}
+.Showcase-Content h1 
+{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.Showcase-Content p 
+{
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.Showcase-Content a 
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  background: #d7385e;
+  color: #ffff;
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 4px;
+  transition: .5s;
+  outline: none;
+}
+.Showcase-Content a:hover
+{
+  background: #D6D2C4;
+  color: #d7385e;
 }
