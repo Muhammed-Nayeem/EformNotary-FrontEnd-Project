@@ -15,10 +15,11 @@ body
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   background: #ecf0f3;
+  font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6
 {
-  font-weight: 600px !important;
+  font-weight: 600 !important;
 }
 .Header-Row
 {
@@ -284,4 +285,60 @@ h1, h2, h3, h4, h5, h6
 {
   box-shadow: 3px 3px 5px #cbced1,
               -3px -3px 5px #f7f9fa;
+}
+.Learning-Process
+{
+  background: #e9ecec;
+}
+.Content-Wrapper
+{
+  overflow: hidden;
+  padding: 60px 0;
+}
+.Left-Content 
+{
+  float: left;
+  width: 540px;
+  margin-right: 40px;
+}
+.Learning-Process h4 
+{
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #4B3C4C;
+}
+.Learning-Process p 
+{
+  color: #555;
+  line-height: 25px;
+  margin: 10px 0;
+}
+.Learning-Process a 
+{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffff;
+  background: #d7385e;
+  padding: 8px 30px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: .5s;
+}
+.Learning-Process a:hover
+{
+  background: #d6d2c4;
+  color: #d7385e;
+}
+.Video-Content-Right 
+{
+  float: right;
+  width: 560px;
+  height: 243px;
+}
+.Video-Content-Right iframe 
+{
+  width: 100%;
+  border: 0;
+  height: 100%;
 }
