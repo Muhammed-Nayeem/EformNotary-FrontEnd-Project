@@ -446,3 +446,157 @@ h1, h2, h3, h4, h5, h6
   background: #D6D2C4;
   color: #d7385e;
 }
+.Top-Footer
+{
+  background: #30475E;
+}
+.TFContent-Wrapper
+{
+  overflow: hidden;
+  padding: 50px 0;
+}
+.TFBox 
+{
+  float: left;
+  width: 346px;
+  margin-right: 50px;
+}
+.TFBox:last-child
+{
+  margin-right: 0;
+}
+.TFBox h4 
+{
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #d7385e;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d6d2c4;
+  position: relative;
+}
+.TFBox h4::before
+{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100px;
+  height: 1px;
+  border-radius: 2px;
+  background: #d7385e;
+}
+.Top-Footer1 a 
+{
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  margin-bottom: 8px;
+  transition: .5s;
+}
+.Top-Footer1 a:hover
+{
+  color: #d7385e;
+}
+.Top-Footer1 a i 
+{
+  color: #d7385e;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.Social-Ul
+{
+  list-style: none;
+  margin-top: 20px;
+}
+.Social-Ul li
+{
+  display: inline-block;
+}
+.Social-Ul li a
+{
+  margin: 0;
+  padding-right: 8px;
+  display: block;
+}
+.Social-Ul li a i
+{
+  font-size: 13px;
+  color: #4E4E50;
+  margin: 0;
+  height: 30px;
+  width: 30px;
+  background: #ffff;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  transition: .5s;
+}
+.Social-Ul li a i:hover
+{
+  color: #d7385e;
+}
+.Top-Footer2 ul
+{
+  list-style: none;
+}
+.Top-Footer2 ul li a
+{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffff;
+  padding: 0px 0px 5px 0px;
+  display: block;
+  transition: .5s;
+}
+.Top-Footer2 ul li a:hover
+{
+  color: #d7385e;
+}
+.Top-Footer2 ul li a i
+{
+  color: #d7385e;
+}
+.Top-Footer3 p
+{
+  color: #ffff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.Newslatter 
+{
+  width: 80%;
+  display: inline-block;
+}
+.Newslatter input[type="email"] 
+{
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  color: #4E4E50;
+}
+.Newslatter input[type="submit"] 
+{
+  margin-left: -4px;
+  background: #d7385e;
+  outline: none;
+  border: none;
+  color: #ffff;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Main-Footer
+{
+  background: #30475E;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #434d57;
+}
+.Main-Footer p
+{
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: bold;
+}
