@@ -195,21 +195,25 @@ h1, h2, h3, h4, h5, h6
 }
 .Services-Section
 {
+  
+}
+.Services-Gallery
+{
   padding: 60px 0;
 }
-.Service-Title 
+.Title 
 {
   text-align: center;
   padding: 0 215px;
 }
-.Service-Title h4 
+.Title h4 
 {
   text-transform: uppercase;
   font-size: 30px;
   color: #4B3C4C;
   margin-bottom: 10px;
 }
-.Service-Title p 
+.Title p 
 {
   color: #6d6d6d;
   font-size: 16px;
@@ -243,7 +247,7 @@ h1, h2, h3, h4, h5, h6
 }
 .Single-Service-Box i 
 {
-  background: #d7385e;
+  background: #57565B;
   color: #ffff;
   width: 100px;
   padding: 30px 0px;
@@ -254,6 +258,14 @@ h1, h2, h3, h4, h5, h6
               0px 0px 0px 5px #ecf0f3,
               8px 8px 12px #a7aaaf,
               -8px -8px 12px #f7fafc;
+}
+.Single-Service-Box .fa-chart-bar
+{
+  background: #d7385e;
+}
+.Single-Service-Box .fa-file-alt
+{
+  background:  #57565B;
 }
 .Single-Service-Box h4 
 {
@@ -341,4 +353,96 @@ h1, h2, h3, h4, h5, h6
   width: 100%;
   border: 0;
   height: 100%;
+}
+.Feature-Section
+{
+
+}
+.Features-Gallery
+{
+  padding: 60px 0;
+}
+.Features-Box
+{
+  overflow: hidden;
+  margin-top: 50px;
+}
+.Single-Feature-Box 
+{
+  float: left;
+  width: 360px;
+  margin: 0 30px 30px 0;
+  text-align: center;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: inset 4px 4px 8px #cecbd1,
+              inset -4px -4px 8px #f7f9fa;
+  position: relative;
+}
+.Single-Feature-Box::before
+{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  background: #fffcfd70;
+  transition: .5s;
+  border-radius: 3px;
+  z-index: -1;
+}
+.Single-Feature-Box:hover::before
+{
+  height: 100%;
+  width: 100%;
+}
+.Single-Feature-Box:nth-child(3),
+.Single-Feature-Box:nth-child(6)
+{
+  margin-right: 0;
+}
+.Single-Feature-Box i 
+{
+  font-size: 40px;
+  margin: 20px 0;
+  color: #d7385e;
+}
+.Single-Feature-Box h4 
+{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4E4E50;
+}
+.Single-Feature-Box p 
+{
+  color: #555;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.Features-Box .Button 
+{
+  clear: both;
+  text-align: center;
+  padding: 15px 0;
+}
+.Features-Box .Button a 
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  background: #d7385e;
+  color: #ffff;
+  border-radius: 3px;
+  font-weight: bold;
+  box-shadow: 4px 4px 8px #cbced1,
+              -4px -4px 8px #f7f9fa;
+  transition: .5s;
+}
+.Features-Box .Button a:hover
+{
+  background: #D6D2C4;
+  color: #d7385e;
 }
