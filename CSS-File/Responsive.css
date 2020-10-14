@@ -272,9 +272,17 @@
   {
     margin-bottom: 0;
   }
+  .Newslatter 
+  {
+    width: 75%;
+  }
   .Newslatter input[type="email"] 
   {
     padding: 8px 10px;
+  }
+  .Newslatter input[type="submit"] 
+  {
+    padding: 8px 8px;
   }
 }
 
