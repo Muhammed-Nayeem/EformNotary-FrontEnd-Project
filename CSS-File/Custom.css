@@ -210,10 +210,40 @@ h1, h2, h3, h4, h5, h6
   color: #4B3C4C;
   margin-bottom: 10px;
 }
+.Title .Bar
+{
+  width: 135px;
+  height: 6px;
+  background: #ecf0f3;
+  border-radius: 3px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 5px #cbced1,
+              -3px -3px 5px #f7f9fa,
+              inset 1px 1px 2px #cbced1;
+  position: relative;
+}
+.Title .Bar::before
+{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 6px;
+  background: #d7385e;
+  border-radius: 3px;
+  left: 0;
+  animation: BG-Move 4s linear infinite;
+}
+@keyframes BG-Move{
+  To
+  {
+    left: 85%;
+  }
+}
 .Title p 
 {
   color: #6d6d6d;
   font-size: 16px;
+  margin-top: 10px;
 }
 .Services-Box 
 {
