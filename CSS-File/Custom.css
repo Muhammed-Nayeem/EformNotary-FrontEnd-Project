@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6
 {
   width: 1140px;
   margin: 0 auto;
+  /* border: 1px solid crimson; */
 }
 .TopBar-Wrapper 
 {
@@ -133,25 +134,21 @@ h1, h2, h3, h4, h5, h6
   font-weight: 600;
   transition: .5s;
 }
-.Main-Menu ul li a:last-child
-{
-  padding: 10px 0px 10px 10px;
-}
 .Main-Menu ul li a:hover
 {
   color: #d7385e;
 }
-.Main-Menu ul li #First-Option
+.Main-Menu ul li .Active
 {
   color: #d7385e;
 }
-.Main-Menu ul li #First-Option:hover
+.Main-Menu ul li .Active:hover
 {
   color: #45285E;
 }
 .Showcase-Content 
 {
-  width: 50%;
+  width: 100%;
 }
 .Showcase-Banner
 {
